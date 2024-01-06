@@ -1,0 +1,181 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+max-width: 1240px;
+margin: 0 auto;
+padding: 0 20px;
+}
+a{
+text-decoration: none;
+color: #4f4f4f;
+}
+body{
+font-family: serif;
+}
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 58px;
+}
+.nav-word{
+display: flex;
+gap: 40px;
+
+}
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.nav-button button{
+border-radius: 50px;
+border: 1px solid #F53855;
+width: 150px;
+height: 45px;
+}
+.contant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 101px;
+    gap: 30px;
+}
+.contant-word{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.contant-word button{
+    border-radius: 10px;
+background: #F53838;
+width: 250px;
+height: 60px;
+}
+.car{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 100px;
+padding: 150px;
+}
+.cars-word img{
+    padding: 5px;
+}
+.cars-mayn{
+    display: flex;
+    gap: 10px; 
+    padding: 10px; 
+}
+.cars-hed{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.cars-hid{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.cars-go{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.cars-box{
+    padding: 20px;
+
+}
+.mani{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 207px;
+}
+.mani h2{
+    width: 383.406px;
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; 
+}
+.mani  p{
+    width: 555px;
+    color: #4F5665;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+.boxx{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+
+}
+.boxs-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.boxs-many{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+
+}
+.boxs-hed{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+.boxs-hid{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+.boxs-go{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+.boxs-word h4{
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+width: 82px;
+}
+.boxs-main h2{
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+
+}
